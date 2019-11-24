@@ -1,0 +1,217 @@
+body {
+  background: white;
+  color: black;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+a:link,
+a:visited {
+  font-family: "Play", sans-serif;
+  text-decoration: none;
+  color: orangered;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.mainContact {
+  padding-left: 15%;
+  padding-right: 5%;
+  width: 80%;
+  align-content: center;
+}
+
+.fixLock {
+  position: fixed;
+}
+
+#frozenSide {
+  background: white;
+  color: black;
+  /* position: fixed; */
+  /* background-image: url("../assets/images/CecileProfilePixelsWandr.JPG"); */
+  min-height: 100vh;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+/* 
+#frozenSide.l5 {
+  position: fixed;
+} */
+
+/* .duckBottom {
+  padding-top: 35vh;
+  align-content: right;
+} */
+
+#duckWork {
+  padding-top: 0;
+  align-content: right;
+}
+
+#duck {
+  width: 150px;
+  /* margin-left: 40%; */
+}
+
+#scrollSpace {
+  margin: 0px;
+  padding: 0px;
+}
+
+.noMargin {
+  margin-top: 0px;
+}
+
+.contactItem {
+  display: inline-block;
+  width: 7%;
+  margin-left: 6%;
+  margin-right: 4%;
+  position: relative;
+}
+
+.logoPic {
+  width: 50px;
+}
+
+.assetDiv {
+  height: 50vh;
+  align-content: right;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 15px;
+  overflow-y: auto;
+}
+
+#asset1 {
+  background: black;
+  color: aquamarine;
+  margin-top: 0;
+}
+
+#asset2 {
+  background: aquamarine;
+  color: black;
+}
+
+#asset3 {
+  background: orangered;
+  color: white;
+}
+
+#asset4 {
+  background: white;
+  color: orangered;
+}
+
+.portfolioItem {
+  display: inline-block;
+  width: 250px;
+  margin: 2px;
+  position: relative;
+}
+
+.portfolioItem img {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 90%;
+}
+
+.portfolioNameOverlay {
+  text-align: right;
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  padding-right: 18px;
+  z-index: 2;
+}
+
+.portfolioItem a:hover {
+  opacity: 50%;
+}
+
+.projectPage {
+  background: black;
+  color: white;
+}
+
+footer {
+  background: white;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12%;
+  /* padding-right: 15%; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.contactItemFoot {
+  display: inline-block;
+  width: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+  position: relative;
+  color: black;
+}
+
+.logoPicFoot {
+  width: 25px;
+}
+
+#homeFoot {
+  width: 40%;
+}
+
+#nameFooter {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.projectLanding {
+  min-height: 100vh;
+  /* background-size: cover; */
+  margin: 0;
+  padding: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+/* .container {
+  padding-left: 20px;
+  padding-right: 15px;
+} */
+
+.projectSpecs {
+  color: white;
+  /* margin-left: 50%; */
+  padding: 10px;
+}
+
+.centeredImage {
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+
+/* .inlineTitle {
+  display: inline-block;
+}
+
+.exampleImage {
+  margin-top: 10px;
+  margin-left: 10px;
+  vertical-align: top;
+} */
